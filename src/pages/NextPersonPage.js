@@ -5,8 +5,6 @@ const NextPersonPage = () => {
   const location = useLocation();
   const state = location.state;
 
- 
-
   return (
     <>
       <NextPerson person={state} />
